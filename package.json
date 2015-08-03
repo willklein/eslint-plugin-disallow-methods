@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-disallow-methods",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ESLint plugin for disallowing specified methods",
   "main": "index.js",
   "scripts": {

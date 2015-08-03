@@ -33,14 +33,14 @@ Sample `.eslintrc`:
         // other rules here
     
         // disallow-methods rules
-        disallow-methods/disallow-methods: [2, [
+        "disallow-methods/disallow-methods": [2, [
           {
-            object: "protectedObject",
-            method: "disallowedMethod"
+            "object": "protectedObject",
+            "method": "disallowedMethod"
           },
           {
-            object: "anotherProtectedObject",
-            method: "anotherDisallowedMethod"
+            "object": "anotherProtectedObject",
+            "method": "anotherDisallowedMethod"
           }
         ]]
       }

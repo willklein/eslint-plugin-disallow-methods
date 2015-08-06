@@ -6,7 +6,8 @@
   "scripts": {
     "minor-release": "npm version minor && npm publish && git push --follow-tags",
     "patch-release": "npm version patch && npm publish && git push --follow-tags",
-    "test": "mocha tests/rules"
+    "test": "mocha tests/lib/rules",
+    "eslint": "eslint ."
   },
   "keywords": [
     "eslint",
@@ -15,7 +16,6 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^1.0.0",
-    "eslint-tester": "^0.7.0",
     "mocha": "^2.2.5"
   },
   "peerDependencies": {

@@ -1,7 +1,9 @@
-var disallowMethods = require("./rules/disallow-methods");
+"use strict";
+
+var disallowMethods = require("./lib/rules/disallow-methods");
 
 module.exports = {
-  rules: {
-    "disallow-methods": disallowMethods
-  }
+    rules: {
+        "disallow-methods": disallowMethods
+    }
 };
